@@ -16,13 +16,18 @@ open tictactoe.html
 
 ## Git workflow
 
-Every change must be committed with a clear message and pushed to GitHub:
+**Commit and push after every meaningful change.** Do not batch up multiple unrelated changes into one commit. The goal is to always have GitHub reflect the current working state so work is never lost and can be reverted at any point.
 
 ```bash
 git add <files>
-git commit -m "descriptive message"
+git commit -m "short, descriptive present-tense message"
 git push
 ```
+
+Commit message rules:
+- Use the imperative mood ("Add score reset button", not "Added" or "Adding")
+- First line ≤ 72 characters; add a blank line + detail paragraph if needed
+- Describe *what* changed and *why*, not *how*
 
 Remote: https://github.com/TheProcess76/ClaudeCodeTest
 
